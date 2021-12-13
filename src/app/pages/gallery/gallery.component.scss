@@ -1,0 +1,18 @@
+
+.mat-card {
+  padding: 20px;
+}
+
+.mat-grid-tile {
+  height: 300px;
+}
+
+img {
+  object-fit: cover;
+  object-position: 0 0;
+  transition: transform .2s; /* Animation */
+}
+
+img:hover {
+  transform: scale(1.5);
+}

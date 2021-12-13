@@ -1,0 +1,29 @@
+.app-content {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  padding: 20px;
+  grid-gap: 20px;
+  background: #fafafa;
+}
+
+.side {
+  width: 200px;
+  background: #fff;
+  color: #571a3d;
+  height: calc(100vh - 80px);
+  padding: 20px;
+  box-shadow: 0 8px 8px 0 RGB(43 80 237 / 20%);
+  border-radius: 8px;
+}
+
+.side .btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.side .btn mat-icon {
+  margin-right: 10px;
+}
